@@ -11,3 +11,22 @@ nav{
     background: lightseagreen;
 
 }
+
+.max-temp{
+    height:auto;
+    max-width: 50%;
+}
+
+@media only screen and (max-width: 767.98px) {
+    body {
+        background-color: white;
+    }
+
+    nav {
+        background-color: lightseagreen;
+    }
+
+    .navbar-collapse{
+        background-color: white;
+        margin-right: 0;
+    }

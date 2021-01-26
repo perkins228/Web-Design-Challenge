@@ -12,7 +12,7 @@
     <nav class="navbar navbar-expand-lg navbar-light p-0">
         <div class="d-flex flex-grow-1">
             <a class="p-3 ml-3 navbar-brand text-light" href="index.html">
-                Latitude
+                <h4>Latitude</h4>
             </a>
             <div class="w-100 m-2 text-right">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
@@ -20,8 +20,8 @@
                 </button>
             </div>
         </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-left mr-2" id="myNavbar">
-            <ul class="navbar-nav ml-auto flex-nowrap">
+        <div class="collapse navbar-collapse flex-grow-1 text-left" id="myNavbar">
+            <ul class="navbar-nav ml-auto flex-nowrap mr-2">
                 <li class="nav-item dropdown">
                     <a class="nav-link m-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Plots
@@ -52,7 +52,9 @@
                   <h1 class="card-title">Summary: Latitude vs. X</h1>
                   <hr/>
                   <div class="card-divider"></div>
+                  <img src="Resources/assets/images/Fig1.png" class="rounded float-left img-fluid max-temp" alt="latitude vs max temp">
                   <p class="card-text">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data fromthe OpenWeather API to assemble a dataset on over 500 cities.</p>
+                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
                 </div>
               </div>
             </div>
