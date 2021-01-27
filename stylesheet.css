@@ -21,6 +21,17 @@ nav{
     color: lightseagreen
 }
 
+.container{
+    background-color: white;
+}
+
+.comp-title{
+    color: lightseagreen;
+}
+
+.card-deck-title{
+    color: lightseagreen;
+}
 
 @media only screen and (max-width: 767.98px) {
     body {
@@ -39,4 +50,10 @@ nav{
     .card-title{
         font-size: xx-large;
     }
+
+    .comp-title{
+        font-size: xx-large;
+    }
+
+
 }
