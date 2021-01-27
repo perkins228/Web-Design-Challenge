@@ -1,6 +1,6 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
-[Weather visualization dashboard!](https://perkins228.github.io/Web-Design-Challenge/comparison.html)
+[Weather visualization dashboard!](https://perkins228.github.io/Web-Design-Challenge/index.html)
 
 ## Background
 
